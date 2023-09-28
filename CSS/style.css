@@ -1,0 +1,101 @@
+
+.contactez-nous{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #ffd9d8;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    background-position: unset;
+    background-position: center;
+    justify-content: center;
+}
+
+.form{
+    border-radius: 20px;
+    padding: 30px 20px;
+    background-color: #fff;
+    border: #111 solid 1px;
+    max-width: 70%;
+    position: relative;
+}
+.img img{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+
+}
+.section{
+    margin-left: 100px;
+}
+.name input{
+    background: #ffd9d8;
+    position: relative;
+    width: 50%;
+    height: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+    border: none;
+}
+.email input{
+    background: #ffd9d8;
+    position: relative;
+    width: 50%;
+    height: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+    border: none;
+}
+.sujet select{
+    background: #ffd9d8;
+    position: relative;
+    width: 50%;
+    height: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+    border: none;
+}
+.message textarea{
+    background: #ffd9d8;
+    position: relative;
+    width: 90%;
+    height: 60px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8); 
+    border: none;
+}
+.submit{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.submit button{
+    font-size: 1em;
+    font-weight: 700;
+    color:#111;
+    background: #fff;
+    display: inline-block;
+    /*transformer le curseur en doigt*/
+    cursor: pointer;
+    /*text en majiscule*/
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: 0,5s;
+    max-width: 300px;
+    height: 30px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+}
+.colone{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+.dn {
+    text-decoration: none ;
+    border: 0;
+}
