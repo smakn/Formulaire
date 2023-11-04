@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script type="text/javascript" src="./JS/index.js"></script>
+</head>
+<header>
+    
+</header>
+<body>
+    <div class="contactez-nous">
+        <div class="form">
+            <div class="img">
+                <div>
+                    <img src="./Images/pngwing.com.png" alt="" id="profile-pic">
+                    <label for="input-file">Update image</label>
+                    <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file" name="img">
+                </div>
+            </div>
+            <div>
+                
+                <form method="post" action="./fichier.php" class="form1">
+    
+                    <section class="section">
+                        <div class="titre">
+                            <h1> Fiche d'enregistrement</h1>
+                            <h3>Civilite</h3>
+                        </div>
+            
+                        <div class="sujet">
+                            <label for="sujet">Titre:</label>
+                            <select  id="sujet" name="sujet" required> 
+                                <option value="probleme-compte" disabled selected hidden>Choix</option>
+                                <option value="question-produit"> Mr</option>
+                                <option value="question-produit"> Mme</option>
+                                <option value="suivi-commande"> Mlle</option>   
+                            </select>
+                        </div>
+                        <div class="colone">
+                            <div class="name">
+                                <label for="nom">nom(s):</label>
+                                <input type="text" id="nom" name="nom" placeholder="Ntepp" required>  
+                            </div>
+                            <div class="name">
+                                <label for="Prenom">Prenom(s):</label>
+                                <input type="text" id="Prenom" name="Prenom" placeholder="Samuel" required>  
+                            </div>
+                        </div>
+    
+                        <div class="colone">
+                            <div class="name">
+                                <label for="date">date-naiss:</label>
+                                <input id="date" name="dat" type="date" value="1900-06-01" />
+                            </div>
+                            <div class="name">
+                                <label for="lieu">Lieu-naiss:</label>
+                                <input type="text" id="lieu" name="lieu" placeholder="Nyon Ekele" required>  
+                            </div>
+                        </div>
+            
+                            <div class="colone">
+                                <div class="name">
+                                    <label for="departement">departement:</label>
+                                    <input type="text" id="departement" name="departement" placeholder="Nyon Ekele" required>  
+                                </div>
+                                <div class="name">
+                                    <label for="region">Region:</label>
+                                    <input type="text" id="region" name="region" placeholder="Centre" required>  
+                                </div>
+                            </div>
+            
+                        <div class="colone">
+                            <div class="name">
+                                <label for="tel">Tel:</label>
+                                <input type="text" id="tel" name="tel" placeholder="+2376565166" required>  
+                            </div>
+                            <div class="email">
+                                <label for="e_mail">Votre e-mail</label>
+                                <input type="e_mail" id="e-mail" name="e_mail" placeholder="exemple@gmail.com" required>  
+                            </div>
+                        </div>
+            
+                        <div class="colone">
+                            <div class="sujet">
+                                <label for="sujet1"> Statut social:</label>
+                                <select  id="sujet" name="sujet1" required> 
+                                    <option value="probleme-compte" disabled selected hidden>statut social</option>
+                                    <option value="question-produit"> Professeur</option>
+                                    <option value="suivi-commande"> Infirmier(e)</option>
+                                    <option value="question-produit"> Electricien</option>
+                                    <option value="suivi-commande"> Informaticien</option>
+                                    <option value="question-produit"> Mecanicien</option>
+                                    <option value="suivi-commande"> juriste</option>
+                                    <option value="autre"> Autre...</option>      
+                                </select>
+                            </div>
+                            <div class="email">
+                                <label for="nationalite">Nationalite</label>
+                                <input type="text" id="nationalite" name="nationalite" placeholder="Camerounaise" required>  
+                            </div>
+                        </div>
+                        <div class="titre">
+                            <h3>Autres informations</h3>
+                        </div>
+                        
+                        <div class="colone">
+                            <div class="name">
+                                <label for="ville">Ville:</label>
+                                <input type="text" id="ville" name="ville" placeholder="Douala" required>  
+                            </div>
+                            <div class="email">
+                                <label for="region_o">Region-o</label>
+                                <input type="text" id="region_o" name="region_o" placeholder="Litoral" required>  
+                            </div>
+                        </div>
+                        <div class="sujet">
+                            <label for="sujet2"> Niveau d'etude:</label>
+                            <select  id="sujet2" name="sujet2" required> 
+                                <option value="probleme-compte" disabled selected hidden>BEPC</option>
+                                <option value="question-produit"> BEPC</option>
+                                <option value="suivi-commande"> PROBATOIRE</option>
+                                <option value="suivi-commande"> BACC</option>
+                                <option value="question-produit"> BACC+1</option>
+                                <option value="suivi-commande"> BACC+2</option>
+                                <option value="question-produit"> BACC+3</option>
+                                <option value="suivi-commande"> BACC+4</option>
+                                <option value="autre"> Autre...</option>      
+                            </select>
+                        </div>
+                        <div class="name">
+                            <label for="profession">Profession:</label>
+                            <input type="text" id="profession" name="profession" placeholder="Electricien" required>  
+                        </div>
+                        <div class="name">
+                            <label for="sujet3">Sujet:</label>
+                            <input type="text" id="sujet3" name="sujet3" placeholder="......" required>  
+                        </div>
+            
+                        <div class="message">
+                            <label for="messages">Votre message</label>
+                            <textarea name="messages" id="messages" placeholder="Ecrivez ici" required></textarea>
+                        </div>
+                        <div class="submit">
+                            <button type="submit" name="valider">Envoyer mon message</button>
+                        </div>
+                    </section>
+                    <a href="pdf.php">imprime.pdf</a> 
+                </form>
+            </div>
+        </div>
+       
+    </div>
+    <script>
+        let profilePic = document.getElementById("profile-pic");
+        let inputFile = document.getElementById("input-file");
+        inputFile.onchange = function(){
+            profilePic.src = URL.createObjectURL(inputFile.files[0]);
+        }
+    </script>
+</body>
+</html>
